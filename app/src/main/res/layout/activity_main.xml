@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ejercicio 1 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <!-- fila 1 -->
+    <View
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="#C6FF00"
+
+        />
+
+    <!-- fila 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#F48FB1"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#7B1FA2"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#303F9F"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#0288D1"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#689F38"
+            />
+    </LinearLayout>
+
+    <!-- fila 3 -->
+    <View
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="#E91E63"
+        />
+
+    <!-- fila 4 horizontal parte 1-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="147dp"
+            android:background="#F57C00"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="147dp"
+            android:background="#689F38"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="147dp"
+            android:background="#D32F2F"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="147dp"
+            android:background="#CE93D8" />
+
+        <!-- fila 4 vertical parte 2-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFF59D"
+                    />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#CCFF90"
+                    />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#84FFFF"
+                    />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#651FFF"
+                    />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#E91E63"
+                    />
+            </LinearLayout>
+            <!-- fin fila 4 parte 2-->
+        </LinearLayout>
+        <!-- fin fila 4 parte 1-->
+
+</LinearLayout>
